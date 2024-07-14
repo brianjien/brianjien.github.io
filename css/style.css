@@ -1,0 +1,114 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 2em 0;
+    background-color: #007acc;
+    color: white;
+}
+
+.header h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+}
+
+.subtitle {
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: #004466;
+    padding: 1em;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 1em;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.profile-info {
+    margin: 2em auto;
+    padding: 1em;
+    max-width: 800px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #007acc;
+    margin-bottom: 1em;
+}
+
+.profile-info h2 {
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 0.5em;
+}
+
+.education, .skills, .courses, .projects {
+    margin: 2em auto;
+    padding: 1em;
+    max-width: 800px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.education h2, .skills h2, .courses h2, .projects h2 {
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 0.5em;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 1.5em;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 2em 0;
+    background-color: #004466;
+    color: white;
+    margin-top: 2em;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
